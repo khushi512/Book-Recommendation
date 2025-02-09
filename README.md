@@ -1,5 +1,5 @@
-# Book-Recommendation
-Overview:
+# Book Recommendation
+## Overview:
 
 This project is a Book Recommendation & Library Organizer that allows users to:
 1) Search for books using API integration.
