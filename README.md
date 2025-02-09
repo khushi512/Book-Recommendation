@@ -9,7 +9,7 @@ This project is a Book Recommendation & Library Organizer that allows users to:
 
 It features a user-friendly UI with soothing colors and a nature-based background for a pleasant reading experience.
 
-Features:
+## Features:
 
 ✅ Search for Books – Fetch book details using APIs.
 
@@ -19,7 +19,7 @@ Features:
 
 ✅ User-Friendly UI – Clean and visually appealing interface with a responsive layout.
 
-Technologies Used:
+## Technologies Used:
 * HTML, CSS and JavaScript– For UI and interactivity.
 * DOM Manipulation to dynamically update the UI.
 * Async/Await & API Integration – For fetching book data.
