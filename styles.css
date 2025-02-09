@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #22223B; 
-    color: #F2E9E4; 
+    background: #d1a9bf; 
+    color: #f7f1ef;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,9 +9,9 @@ body {
 
 /* Header */
 #banner {
-    background: linear-gradient(to right, #4A4E69, #22223B); /* Independence to Space Cadet */
+    background: linear-gradient(to right, #b40855, #22223B); /* Independence to Space Cadet */
     padding: 20px;
-    color: #F2E9E4; 
+    color: #F2E9E4;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -28,14 +28,15 @@ body {
 
 /* Search Box */
 .search-box {
-    background: #4A4E69; /* Independence */
+    background: #b40855; 
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(150, 14, 14, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 500px;
+    height: 250px;
 }
 
 .search-box input, .search-box select, .search-box button {
@@ -49,17 +50,17 @@ body {
 }
 
 .search-box input {
-    background: #F2E9E4; 
-    color: #22223B; 
+    background: #e4e0e2; 
+    color: #F2E9E4;
 }
 
 .search-box select {
-    background: #9A8C98; 
-    color: #F2E9E4; 
+    background: #d1a9bf; 
+    color: #4b4745;
 }
 
 .search-box button {
-    background: #C9ADA7; 
+    background: #dad5d8;
     color: #22223B; 
     cursor: pointer;
     font-weight: bold;
@@ -88,7 +89,7 @@ body {
 
 /* Library Section */
 #libraryPage {
-    background: #4A4E69; /* Independence */
+    background: #4A4E69; 
     padding: 20px;
     border-radius: 12px;
     margin: 20px auto;
@@ -134,7 +135,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Save and Remove Buttons */
+/* Save & Remove Buttons */
 .save-btn, .remove-btn {
     padding: 10px;
     border-radius: 5px;
@@ -145,25 +146,25 @@ body {
 }
 
 .save-btn {
-    background: #9A8C98; 
+    background: #9A8C98;
     color: #F2E9E4; 
 }
 
 .save-btn:hover {
-    background: #4A4E69; /* Independence */
+    background: #4A4E69; 
 }
 
 .remove-btn {
     background: #C9ADA7; 
-    color: #22223B; 
+    color: #22223B;
 }
 
 .remove-btn:hover {
-    background: #9A8C98; 
+    background: #9A8C98;
     color: #F2E9E4; 
 }
 
-/* Hidden Elements*/
+/* Hidden Elements */
 .hidden {
     display: none;
 }
