@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Headings -->
+    <header id="banner">
+        <h1>📚 Find Your Next Book</h1>
+    </header>
 
+    <!-- Home Page -->
+    <main id="homePage">
+        <div class="container">
+          
+          <!-- Book Selection-->
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for books...">
+                <select id="genreSelect">
+                    <option value="none">Select Genre</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="nonfiction">Non-fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                </select>
+                <select id="ratingSelect">
+                    <option value="none">Select Rating</option>
+                    <option value="5">5 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="3">3 stars</option>
+                </select>
+                <button id="searchBtn">🔍 Search</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Home Button -->
+    <button id="backToHomeBtn" class="hidden">⬅ Back to Home</button>
+
+    <!-- Results Page -->
+    <section id="resultsPage" class="hidden">
+        <div id="results" class="book-grid"></div>
+    </section>
+
+    <!-- Library Section -->
+    <section id="libraryPage" class="hidden">
+        <div class="library-buttons">
+            <button id="inProgressTab">📖 In Progress</button>
+            <button id="finishedTab">✅ Finished</button>
+            <button id="savedTab">🔖 Saved</button>
+        </div>
+        <div id="libraryContent">
+            <div id="inProgressBooks" class="book-list"></div>
+            <div id="finishedBooks" class="book-list hidden"></div>
+            <div id="savedBooks" class="book-list hidden"></div>
+        </div>
+    </section>
+
+    <!-- Open Library -->
+    <button id="libraryBtn">📚 Open Library</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
