@@ -1,1 +1,169 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #22223B; 
+    color: #F2E9E4; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+/* Header */
+#banner {
+    background: linear-gradient(to right, #4A4E69, #22223B); /* Independence to Space Cadet */
+    padding: 20px;
+    color: #F2E9E4; 
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Search Box */
+.search-box {
+    background: #4A4E69; /* Independence */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.search-box input, .search-box select, .search-box button {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.search-box input {
+    background: #F2E9E4; 
+    color: #22223B; 
+}
+
+.search-box select {
+    background: #9A8C98; 
+    color: #F2E9E4; 
+}
+
+.search-box button {
+    background: #C9ADA7; 
+    color: #22223B; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-box button:hover {
+    background: #9A8C98; 
+}
+
+/* Back to Home Button */
+#backToHomeBtn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #C9ADA7; 
+    color: #22223B; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#backToHomeBtn:hover {
+    background: #9A8C98; 
+}
+
+/* Library Section */
+#libraryPage {
+    background: #4A4E69; /* Independence */
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.library-buttons button {
+    background: #9A8C98; 
+    color: #F2E9E4; 
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.library-buttons button:hover {
+    background: #C9ADA7; 
+    color: #22223B; 
+}
+
+/* Book Grid */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Book Cards */
+.book-card {
+    background: #F2E9E4; 
+    color: #22223B; 
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+/* Save and Remove Buttons */
+.save-btn, .remove-btn {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.save-btn {
+    background: #9A8C98; 
+    color: #F2E9E4; 
+}
+
+.save-btn:hover {
+    background: #4A4E69; /* Independence */
+}
+
+.remove-btn {
+    background: #C9ADA7; 
+    color: #22223B; 
+}
+
+.remove-btn:hover {
+    background: #9A8C98; 
+    color: #F2E9E4; 
+}
+
+/* Hidden Elements*/
+.hidden {
+    display: none;
+}
